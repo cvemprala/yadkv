@@ -7,7 +7,7 @@ The aim is to build a distributed key value store, and as I go along I will try 
 ## Plan
 It's been a while since I've been planning to build a key value store. Finally I start, here is how I want to go about building a distributed key value store. Language of choice is [Go][httpx://go.dev]. 
 
-1. **Grasp gRPC Implementation in Go**: The first step is to comprehend the RPC mechanism and then quickly a service using gRPC in Golang. 
+1. **Grasp gRPC Implementation in Go**: The first step is to comprehend the RPC mechanism and then quickly build a service using gRPC in Golang. 
     - Why gRPC? 
       - Imagine you're playing an online multiplayer game. Each player is using a different type of game console (like PlayStation, Xbox, or a PC), but they all need to talk to each other to coordinate during the game. gRPC is like the common language all these consoles speak, so that no matter what type of console they're using, they can understand each other and play together. 
       - Now, let's imagine that you're playing a really, really fast game, where every millisecond counts. You wouldn't want your console to take a long time to send your moves to your friends, right? gRPC is super speedy because it uses a protocol called HTTP/2 and a format called Protocol Buffers, which are designed to send messages quickly and efficiently. 
